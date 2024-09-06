@@ -1,0 +1,205 @@
+Continent,Country,country,latitude,longitude
+Africa,Algeria,DZ,28033886.0,1659626.0
+Africa,Egypt,EG,26820553.0,30802498.0
+Africa,Libya,LY,263351.0,17228331.0
+Africa,Morocco,MA,31791702.0,-709262.0
+Africa,Sudan,SD,12862807.0,30217636.0
+Africa,Tunisia,TN,33886917.0,9537499.0
+Africa,Western Sahara,EH,24215527.0,-12885834.0
+Africa,British Indian Ocean Territory,IO,-6343194.0,71876519.0
+Africa,Burundi,BI,-3373056.0,29918886.0
+Africa,Comoros,KM,-11875001.0,43872219.0
+Africa,Djibouti,DJ,11825138.0,42590275.0
+Africa,Eritrea,ER,15179384.0,39782334.0
+Africa,Ethiopia,ET,9145.0,40489673.0
+Africa,French Southern Territories,TF,-49280366.0,69348557.0
+Africa,Kenya,KE,-0.023559,37906193.0
+Africa,Madagascar,MG,-18766947.0,46869107.0
+Africa,Malawi,MW,-13254308.0,34301525.0
+Africa,Mauritius,MU,-20348404.0,57552152.0
+Africa,Mayotte,YT,-128275.0,45166244.0
+Africa,Mozambique,MZ,-18665695.0,35529562.0
+Africa,Réunion,RE,-21115141.0,55536384.0
+Africa,Rwanda,RW,-1940278.0,29873888.0
+Africa,Seychelles,SC,-4679574.0,55491977.0
+Africa,Somalia,SO,5152149.0,46199616.0
+Africa,Uganda,UG,1373333.0,32290275.0
+Africa,Zambia,ZM,-13133897.0,27849332.0
+Africa,Zimbabwe,ZW,-19015438.0,29154857.0
+Africa,Angola,AO,-11202692.0,17873887.0
+Africa,Cameroon,CM,7369722.0,12354722.0
+Africa,Central African Republic,CF,6611111.0,20939444.0
+Africa,Chad,TD,15454166.0,18732207.0
+Africa,Equatorial Guinea,GQ,1650801.0,10267895.0
+Africa,Gabon,GA,-0.803689,11609444.0
+Africa,Botswana,BW,-22328474.0,24684866.0
+Africa,Lesotho,LS,-29609988.0,28233608.0
+Africa,Namibia,,-2295764.0,1849041.0
+Africa,South Africa,ZA,-30559482.0,22937506.0
+Africa,Benin,BJ,930769.0,2315834.0
+Africa,Burkina Faso,BF,12238333.0,-1561593.0
+Africa,Gambia,GM,13443182.0,-15310139.0
+Africa,Ghana,GH,7946527.0,-1023194.0
+Africa,Guinea,GN,9945587.0,-9696645.0
+Africa,Guinea-Bissau,GW,11803749.0,-15180413.0
+Africa,Liberia,LR,6428055.0,-9429499.0
+Africa,Mali,ML,17570692.0,-3996166.0
+Africa,Mauritania,MR,2100789.0,-10940835.0
+Africa,Niger,NE,17607789.0,8081666.0
+Africa,Nigeria,NG,9081999.0,8675277.0
+Africa,Saint Helena,SH,-24143474.0,-10030696.0
+Africa,Senegal,SN,14497401.0,-14452362.0
+Africa,Sierra Leone,SL,8460555.0,-11779889.0
+Africa,Togo,TG,8619543.0,0.824782
+Americas,Anguilla,AI,18220554.0,-63068615.0
+Americas,Antigua and Barbuda,AG,17060816.0,-61796428.0
+Americas,Aruba,AW,1252111.0,-69968338.0
+Americas,Bahamas,BS,2503428.0,-7739628.0
+Americas,Barbados,BB,13193887.0,-59543198.0
+Americas,British Virgin Islands,VG,18420695.0,-64639968.0
+Americas,Cayman Islands,KY,19513469.0,-80566956.0
+Americas,Cuba,CU,21521757.0,-77781167.0
+Americas,Dominica,DM,15414999.0,-61370976.0
+Americas,Dominican Republic,DO,18735693.0,-70162651.0
+Americas,Grenada,GD,12262776.0,-61604171.0
+Americas,Guadeloupe,GP,16995971.0,-62067641.0
+Americas,Haiti,HT,18971187.0,-72285215.0
+Americas,Jamaica,JM,18109581.0,-77297508.0
+Americas,Martinique,MQ,14641528.0,-61024174.0
+Americas,Montserrat,MS,16742498.0,-62187366.0
+Americas,Puerto Rico,PR,18220833.0,-66590149.0
+Americas,Saint Kitts and Nevis,KN,17357822.0,-62782998.0
+Americas,Saint Lucia,LC,13909444.0,-60978893.0
+Americas,Saint Vincent and the Grenadines,VC,12984305.0,-61287228.0
+Americas,Trinidad and Tobago,TT,10691803.0,-61222503.0
+Americas,Turks and Caicos Islands,TC,21694025.0,-71797928.0
+Americas,Belize,BZ,17189877.0,-8849765.0
+Americas,Costa Rica,CR,9748917.0,-83753428.0
+Americas,El Salvador,SV,13794185.0,-8889653.0
+Americas,Guatemala,GT,15783471.0,-90230759.0
+Americas,Honduras,HN,15199999.0,-86241905.0
+Americas,Mexico,MX,23634501.0,-102552784.0
+Americas,Nicaragua,NI,12865416.0,-85207229.0
+Americas,Panama,PA,8537981.0,-80782127.0
+Americas,Argentina,AR,-38416097.0,-63616672.0
+Americas,Bouvet Island,BV,-54423199.0,3413194.0
+Americas,Brazil,BR,-14235004.0,-5192528.0
+Americas,Chile,CL,-35675147.0,-71542969.0
+Americas,Colombia,CO,4570868.0,-74297333.0
+Americas,Ecuador,EC,-1831239.0,-78183406.0
+Americas,French Guiana,GF,3933889.0,-53125782.0
+Americas,Guyana,GY,4860416.0,-5893018.0
+Americas,Paraguay,PY,-23442503.0,-58443832.0
+Americas,Peru,PE,-9189967.0,-75015152.0
+Americas,South Georgia and the South Sandwich Islands,GS,-54429579.0,-36587909.0
+Americas,Suriname,SR,3919305.0,-56027783.0
+Americas,Uruguay,UY,-32522779.0,-55765835.0
+Americas,Bermuda,BM,32321384.0,-6475737.0
+Americas,Canada,CA,56130366.0,-106346771.0
+Americas,Greenland,GL,71706936.0,-42604303.0
+Americas,Saint Pierre and Miquelon,PM,46941936.0,-5627111.0
+,Antarctica,AQ,-75250973.0,-0.071389
+Asia,Kazakhstan,KZ,48019573.0,66923684.0
+Asia,Kyrgyzstan,KG,4120438.0,74766098.0
+Asia,Tajikistan,TJ,38861034.0,71276093.0
+Asia,Turkmenistan,TM,38969719.0,59556278.0
+Asia,Uzbekistan,UZ,41377491.0,64585262.0
+Asia,China,CN,3586166.0,104195397.0
+Asia,Japan,JP,36204824.0,138252924.0
+Asia,Mongolia,MN,46862496.0,103846656.0
+Asia,Cambodia,KH,12565679.0,104990963.0
+Asia,Indonesia,ID,-0.789275,113921327.0
+Asia,Malaysia,MY,4210484.0,101975766.0
+Asia,Philippines,PH,12879721.0,121774017.0
+Asia,Singapore,SG,1352083.0,103819836.0
+Asia,Thailand,TH,15870032.0,100992541.0
+Asia,Timor-Leste,TL,-8874217.0,125727539.0
+Asia,Afghanistan,AF,3393911.0,67709953.0
+Asia,Bangladesh,BD,23684994.0,90356331.0
+Asia,Bhutan,BT,27514162.0,90433601.0
+Asia,India,IN,20593684.0,7896288.0
+Asia,Maldives,MV,3202778.0,7322068.0
+Asia,Nepal,NP,28394857.0,84124008.0
+Asia,Pakistan,PK,30375321.0,69345116.0
+Asia,Sri Lanka,LK,7873054.0,80771797.0
+Asia,Armenia,AM,40069099.0,45038189.0
+Asia,Azerbaijan,AZ,40143105.0,47576927.0
+Asia,Bahrain,BH,25930414.0,50637772.0
+Asia,Cyprus,CY,35126413.0,33429859.0
+Asia,Georgia,GE,42315407.0,43356892.0
+Asia,Iraq,IQ,33223191.0,43679291.0
+Asia,Israel,IL,31046051.0,34851612.0
+Asia,Jordan,JO,30585164.0,36238414.0
+Asia,Kuwait,KW,2931166.0,47481766.0
+Asia,Lebanon,LB,33854721.0,35862285.0
+Asia,Oman,OM,21512583.0,55923255.0
+Asia,Qatar,QA,25354826.0,51183884.0
+Asia,Saudi Arabia,SA,23885942.0,45079162.0
+Asia,United Arab Emirates,AE,23424076.0,53847818.0
+Asia,Yemen,YE,15552727.0,48516388.0
+Europe,Belarus,BY,53709807.0,27953389.0
+Europe,Bulgaria,BG,42733883.0,2548583.0
+Europe,Hungary,HU,47162494.0,19503304.0
+Europe,Poland,PL,51919438.0,19145136.0
+Europe,Romania,RO,45943161.0,2496676.0
+Europe,Slovakia,SK,48669026.0,19699024.0
+Europe,Ukraine,UA,48379433.0,3116558.0
+Europe,Denmark,DK,5626392.0,9501785.0
+Europe,Estonia,EE,58595272.0,25013607.0
+Europe,Faroe Islands,FO,61892635.0,-6911806.0
+Europe,Finland,FI,6192411.0,25748151.0
+Europe,Guernsey,GG,49465691.0,-2585278.0
+Europe,Iceland,IS,64963051.0,-19020835.0
+Europe,Ireland,IE,5341291.0,-824389.0
+Europe,Isle of Man,IM,54236107.0,-4548056.0
+Europe,Jersey,JE,49214439.0,-213125.0
+Europe,Latvia,LV,56879635.0,24603189.0
+Europe,Lithuania,LT,55169438.0,23881275.0
+Europe,Norway,NO,60472024.0,8468946.0
+Europe,Sweden,SE,60128161.0,18643501.0
+Europe,Albania,AL,41153332.0,20168331.0
+Europe,Andorra,AD,42546245.0,1601554.0
+Europe,Bosnia and Herzegovina,BA,43915886.0,17679076.0
+Europe,Croatia,HR,45.1,15.2
+Europe,Gibraltar,GI,36137741.0,-5345374.0
+Europe,Greece,GR,39074208.0,21824312.0
+Europe,Italy,IT,4187194.0,1256738.0
+Europe,Malta,MT,35937496.0,14375416.0
+Europe,Montenegro,ME,42708678.0,1937439.0
+Europe,Portugal,PT,39399872.0,-8224454.0
+Europe,San Marino,SM,4394236.0,12457777.0
+Europe,Serbia,RS,44016521.0,21005859.0
+Europe,Slovenia,SI,46151241.0,14995463.0
+Europe,Spain,ES,40463667.0,-374922.0
+Europe,Austria,AT,47516231.0,14550072.0
+Europe,Belgium,BE,50503887.0,4469936.0
+Europe,France,FR,46227638.0,2213749.0
+Europe,Germany,DE,51165691.0,10451526.0
+Europe,Liechtenstein,LI,47166.0,9555373.0
+Europe,Luxembourg,LU,49815273.0,6129583.0
+Europe,Monaco,MC,43750298.0,7412841.0
+Europe,Switzerland,CH,46818188.0,8227512.0
+Oceania,Australia,AU,-25274398.0,133775136.0
+Oceania,Christmas Island,CX,-10447525.0,105690449.0
+Oceania,Heard Island and McDonald Islands,HM,-5308181.0,73504158.0
+Oceania,New Zealand,NZ,-40900557.0,174885971.0
+Oceania,Norfolk Island,NF,-29040835.0,167954712.0
+Oceania,Fiji,FJ,-16578193.0,179414413.0
+Oceania,New Caledonia,NC,-20904305.0,165618042.0
+Oceania,Papua New Guinea,PG,-6314993.0,14395555.0
+Oceania,Solomon Islands,SB,-964571.0,160156194.0
+Oceania,Vanuatu,VU,-15376706.0,166959158.0
+Oceania,Guam,GU,13444304.0,144793731.0
+Oceania,Kiribati,KI,-3370417.0,-168734039.0
+Oceania,Marshall Islands,MH,7131474.0,171184478.0
+Oceania,Nauru,NR,-0.522778,166931503.0
+Oceania,Northern Mariana Islands,MP,1733083.0,14538469.0
+Oceania,Palau,PW,751498.0,13458252.0
+Oceania,American Samoa,AS,-14270972.0,-170132217.0
+Oceania,Cook Islands,CK,-21236736.0,-159777671.0
+Oceania,French Polynesia,PF,-17679742.0,-149406843.0
+Oceania,Niue,NU,-19054445.0,-169867233.0
+Oceania,Samoa,WS,-13759029.0,-172104629.0
+Oceania,Tokelau,TK,-8967363.0,-171855881.0
+Oceania,Tonga,TO,-21178986.0,-175198242.0
+Oceania,Tuvalu,TV,-7109535.0,17764933.0
