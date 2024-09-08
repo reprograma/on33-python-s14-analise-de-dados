@@ -13,13 +13,13 @@ Exercicio para casa semana 14.
 
 Para responder as perguntas elaboradas usar:
 
-    * Criar pelo menos 3 gráficos.
-    * Exporte sua base final em csv.
-    * Submeta uma pasta que contenha:
-        * o arquivo .ipynb com sua análise exploratória rodada, ou seja, com as respostas aparecendo no notebook;
-        * interpretações observadas a partir dos gráficos dentro do notebook;
-        * a base final criada por você no formato .csv;
-        * especificar quais bases da olist foram usadas;
+  * Criar pelo menos 3 gráficos.
+  * Exporte sua base final em csv.
+  * Submeta uma pasta que contenha:
+  * o arquivo .ipynb com sua análise exploratória rodada, ou seja, com as respostas aparecendo no notebook;
+  * interpretações observadas a partir dos gráficos dentro do notebook;
+  * a base final criada por você no formato .csv;
+  * especificar quais bases da olist foram usadas;
 
 ## 📈 Introdução
 
@@ -134,7 +134,7 @@ Optei por trabalhar apenas com estes datasets, o de pedidos (olist_orders_datase
 
  ### - Análises:
 
-- 4 Indique quais os três estados possuem a maioria dos clientes na base de dados e quais três estados abrigam a maior quantidade de vendedores? 
+- 4. Indique quais os três estados possuem a maioria dos clientes na base de dados e quais três estados abrigam a maior quantidade de vendedores? 
 
             #Contar quantos estados únicos existem na coluna 'customer_state':
 
@@ -233,11 +233,11 @@ Optei por trabalhar apenas com estes datasets, o de pedidos (olist_orders_datase
             media_por_estado = df_vendas_olist.groupby('seller_state')['price'].mean().reset_index()
             media_por_estado.columns = ['Estado', 'Média de Venda']
 
-            #Ordenando os produtos pelo maior valor:
+           #Ordenando os produtos pelo maior valor:
 
             media_por_estado = media_por_estado.sort_values(by='Média de Venda', ascending=False)
 
-            #Exibir os estados:
+           #Exibir os estados:
 
             print('Média de Venda por Estado')
             print(media_por_estado)
@@ -246,17 +246,21 @@ Optei por trabalhar apenas com estes datasets, o de pedidos (olist_orders_datase
 
 4 - Clientes e Vendedores por Estado
 
-            #Contando a quantidade de clientes por estado:
+      #Contando a quantidade de clientes por estado:
+      
             clientes_por_estado = df_vendas_olist['customer_state'].value_counts()
 
-            #Selecionando os três estados com maior quantidade de clientes:
+      #Selecionando os três estados com maior quantidade de clientes:
+      
             top3_estados = clientes_por_estado.head(3)
 
-            #Plotando o gráfico de barras:
+      #Plotando o gráfico de barras:
+      
             plt.figure(figsize=(10, 6))
             ax = sns.barplot(x=top3_estados.index, y=top3_estados.values, hue=top3_estados.index, palette='pastel', legend=False)
 
-            #Adicionando rótulos às barras:
+      #Adicionando rótulos às barras:
+      
             for p in ax.patches:
                 ax.annotate(f'{p.get_height():,}', 
                             (p.get_x() + p.get_width() / 2, p.get_height()), 
@@ -270,22 +274,22 @@ Optei por trabalhar apenas com estes datasets, o de pedidos (olist_orders_datase
             plt.ylabel('Quantidade de Clientes', fontsize=12)
             plt.show()
 
-[Grafico1]()
+![Grafico1](https://github.com/CarolyneS14/on33-python-s14-analise-de-dados/blob/main/Carolyne-Oliveira/para-casa/Graficos/Grafico1.png)
 
-            #Contando a quantidade de vendedores por estado:
+      #Contando a quantidade de vendedores por estado:
 
             clientes_por_estado = df_vendas_olist['seller_state'].value_counts()
 
-            #Selecionando os três estados com maior quantidade de vendedores:
+      #Selecionando os três estados com maior quantidade de vendedores:
 
             top3_estados = clientes_por_estado.head(3)
 
-            #Plotando o gráfico de barras:
+      #Plotando o gráfico de barras:
 
             plt.figure(figsize=(10, 6))
             ax = sns.barplot(x=top3_estados.index, y=top3_estados.values, hue=top3_estados.index, palette='pastel', legend=False)
 
-            #Adicionando rótulos às barras:
+      #Adicionando rótulos às barras:
 
             for p in ax.patches:
                 ax.annotate(f'{p.get_height():,}', 
@@ -300,20 +304,20 @@ Optei por trabalhar apenas com estes datasets, o de pedidos (olist_orders_datase
             plt.ylabel('Quantidade de Vendedores', fontsize=12)
             plt.show()
 
-[Grafico2]()
+![Grafico2](https://github.com/CarolyneS14/on33-python-s14-analise-de-dados/blob/main/Carolyne-Oliveira/para-casa/Graficos/Grafico2.png)
 
 5 - Categorias Mais Vendidas
 
-            #Ordenando os dados de produtos_por_categoria de forma decrescente:
+      #Ordenando os dados de produtos_por_categoria de forma decrescente:
 
             produtos_por_categoria = produtos_por_categoria.sort_values(by='Quantidade Vendida', ascending=False)
 
-            #Plotando a distribuição por categoria (gráfico de barras):
+      #Plotando a distribuição por categoria (gráfico de barras):
 
             plt.figure(figsize=(15, 6))
             ax = sns.barplot(x='Quantidade Vendida', y='Categoria', data=produtos_por_categoria.head(10), hue='Categoria', palette='pastel')
 
-            #Adicionando rótulos às barras:
+      #Adicionando rótulos às barras:
 
             for p in ax.patches:
                 ax.annotate(f'{p.get_width():,.0f}', 
@@ -328,29 +332,29 @@ Optei por trabalhar apenas com estes datasets, o de pedidos (olist_orders_datase
             plt.ylabel('Categoria', fontsize=12)
             plt.show()
 
-[Grafico3]()
+![Grafico3](https://github.com/CarolyneS14/on33-python-s14-analise-de-dados/blob/main/Carolyne-Oliveira/para-casa/Graficos/Grafico3.png)
 
 6 - Média Estadual de Valor Gasto por Clientes
 
-            #Verificar a média:
+      #Verificar a média:
 
             media_por_estado = df_vendas_olist.groupby('customer_state')['price'].mean().reset_index()
             media_por_estado.columns = ['Estado', 'Média de Valor Gasto']
 
-            #Ordenando os estados pela maior média de valor gasto:
+      #Ordenando os estados pela maior média de valor gasto:
 
             media_por_estado = media_por_estado.sort_values(by='Média de Valor Gasto', ascending=False)
 
-            #Selecionando os cinco estados com a maior média de valor gasto:
+      #Selecionando os cinco estados com a maior média de valor gasto:
 
             top5_estados = media_por_estado.head(5)
 
-            #Plotando o gráfico de barras:
+      #Plotando o gráfico de barras:
 
             plt.figure(figsize=(12, 6))
             ax = sns.barplot(x='Estado', y='Média de Valor Gasto', data=top5_estados, hue='Média de Valor Gasto', palette='pastel', legend=False)
 
-            #Adicionando rótulos às barras:
+      #Adicionando rótulos às barras:
 
             for p in ax.patches:
                 ax.annotate(f'{p.get_height():,.2f}', 
@@ -365,25 +369,25 @@ Optei por trabalhar apenas com estes datasets, o de pedidos (olist_orders_datase
             plt.ylabel('Média de Valor Gasto (R$)', fontsize=12)
             plt.show()
 
-[grafico4]()
+![grafico4](https://github.com/CarolyneS14/on33-python-s14-analise-de-dados/blob/main/Carolyne-Oliveira/para-casa/Graficos/Grafico4.png)
 
 7 - Categoria mais Lucrativa
 
-            #Agrupando os produtos por categoria e somando o preço total por categoria:
+      #Agrupando os produtos por categoria e somando o preço total por categoria:
 
             preco_por_categoria = df_vendas_olist.groupby('product_category_name')['price'].sum().reset_index()
             preco_por_categoria.columns = ['Categoria', 'Preço Total']
 
-            #Ordenando as categorias pelo preço total (decrescente) e selecionando as 10 principais:
+      #Ordenando as categorias pelo preço total (decrescente) e selecionando as 10 principais:
 
             preco_por_categoria = preco_por_categoria.sort_values(by='Preço Total', ascending=False).head(10)
 
-            #Plotando o gráfico de barras horizontais:
+      #Plotando o gráfico de barras horizontais:
 
             plt.figure(figsize=(12, 6))
             ax = sns.barplot(x='Preço Total', y='Categoria', data=preco_por_categoria, hue='Preço Total', palette='pastel', legend=False)
 
-            #Adicionando rótulos às barras:
+      #Adicionando rótulos às barras:
 
             for p in ax.patches:
                 ax.annotate(f'R$ {p.get_width():,.2f}', 
@@ -393,7 +397,7 @@ Optei por trabalhar apenas com estes datasets, o de pedidos (olist_orders_datase
                             xytext=(5, 0), 
                             textcoords='offset points')
 
-            #Título e rótulos dos eixos:
+      #Título e rótulos dos eixos:
 
             plt.title('Top 10 Categorias com Maior Lucro', fontsize=16)
             plt.xlabel('Preço Total (R$)', fontsize=12)
@@ -403,29 +407,29 @@ Optei por trabalhar apenas com estes datasets, o de pedidos (olist_orders_datase
 
             plt.show()
 
-[grafico5]()
+![grafico5](https://github.com/CarolyneS14/on33-python-s14-analise-de-dados/blob/main/Carolyne-Oliveira/para-casa/Graficos/grafico5.png)
 
 8 - Media de Vendas por Estado
 
-            #Verificar a média:
+      #Verificar a média:
 
             media_por_estado = df_vendas_olist.groupby('seller_state')['price'].mean().reset_index()
             media_por_estado.columns = ['Estado', 'Média de Venda']
 
-            #Ordenando os produtos pelo maior valor:
+      #Ordenando os produtos pelo maior valor:
 
             media_por_estado = media_por_estado.sort_values(by='Média de Venda', ascending=False)
 
-            #Selecionando os cinco estados com a maior média de valor gasto:
+      #Selecionando os cinco estados com a maior média de valor gasto:
 
             top5_estados = media_por_estado.head(5)
 
-            #Plotando o gráfico de barras:
+      #Plotando o gráfico de barras:
 
             plt.figure(figsize=(12, 6))
             ax = sns.barplot(x='Estado', y='Média de Venda', data=top5_estados, hue='Média de Venda', palette='pastel', legend=False)
 
-            #Adicionando rótulos às barras:
+      #Adicionando rótulos às barras:
 
             for p in ax.patches:
                 ax.annotate(f'{p.get_height():,.2f}', 
@@ -440,7 +444,7 @@ Optei por trabalhar apenas com estes datasets, o de pedidos (olist_orders_datase
             plt.ylabel('Média de Venda (R$)', fontsize=12)
             plt.show()
 
-[grafico6]()
+![grafico6](https://github.com/CarolyneS14/on33-python-s14-analise-de-dados/blob/main/Carolyne-Oliveira/para-casa/Graficos/Grafico6.png)
 
  ### - Conclusão:
 
@@ -474,5 +478,5 @@ Esses insights combinados podem orientar estratégias de crescimento, abrangendo
 
 ## 👩🏻‍🏫 Professora Patrícia Bongiovanni Catandi.
 [GitHub](https://github.com/patriciacatandi "Patricia Catandi")
-/n
+<br/>
 [Linkedin](https://www.linkedin.com/in/patr%C3%ADcia-bongiovanni-catandi-13650ba1)
